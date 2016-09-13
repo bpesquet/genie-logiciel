@@ -15,11 +15,13 @@ Ce livre constitue une introduction au **génie logiciel**. Il présente les gra
 * Travail collaboratif.
 * Tests, documentation et maintenance.
 
-Les exemples de code sont écrits en langage C# et utilisent la technologie Winforms, mais les concepts exposés sont valables quel que soit l'environnement de travail.
+Les exemples de code sont écrits en langage C# et utilisent la technologie WinForms, mais les concepts exposés sont valables quel que soit l'environnement de travail.
 
 ## Pré-requis
 
-L'étude des exemples de code de ce livre nécessite une connaissance minimale de la programmation orientée objet et du langage C#. Au besoin, consultez le livre [Programmation orientée objet en C#](https://bpesquet.gitbooks.io/programmation-orientee-objet-csharp/content/).
+L'étude des exemples de code de ce livre nécessite une connaissance minimale de la programmation orientée objet, du langage C# et de la technologie WinForms. 
+
+> Au besoin, consultez les livres [Programmation orientée objet en C#](https://bpesquet.gitbooks.io/programmation-orientee-objet-csharp/content/) et [Programmation évènementielle avec les WinForms](https://bpesquet.gitbooks.io/programmation-evenementielle-winforms/content/).
 
 ## Contributions
 
