@@ -6,10 +6,14 @@ Ce livre est un support de cours du module "Génie logiciel" enseigné à l'[Eco
 
 ## Résumé
 
-Ce livre est une introduction au **génie logiciel**. Il présente les grands enjeux et les bonnes pratiques liés à l'activité de réalisation de logiciels :
+Ce livre constitue une introduction au **génie logiciel**. Il présente les grands enjeux et les bonnes pratiques liés à l'activité de réalisation de logiciels :
 
 * Notion d'architecture logicielle.
 * Principes de conception.
+* Développement en couches.
+* *Design patterns*.
+* Travail collaboratif.
+* Tests, documentation et maintenance.
 
 Les exemples de code sont écrits en langage C# et utilisent la technologie Winforms, mais les concepts exposés sont valables quel que soit l'environnement de travail.
 
