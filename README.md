@@ -1,8 +1,8 @@
 # Génie logiciel
 
-Ce livre est un support de cours du module "Génie logiciel" enseigné à l'[Ecole Nationale Supérieure de Cognitique](http://www.ensc.fr).
+Ce livre est un support de cours à l'[Ecole Nationale Supérieure de Cognitique](http://www.ensc.fr).
 
-![](ensc-logo.png)
+![](images/ensc-logo.png)
 
 ## Résumé
 
