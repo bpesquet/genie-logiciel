@@ -6,16 +6,16 @@ Ce livre est un support de cours du module "Génie logiciel" enseigné à l'[Eco
 
 ## Résumé
 
-Ce livre est une introduction au **génie logiciel**. Il présente les enjeux et les bonnes pratiques liés à l'activité de réalisation de logiciels :
+Ce livre est une introduction au **génie logiciel**. Il présente les grands enjeux et les bonnes pratiques liés à l'activité de réalisation de logiciels :
 
-* Notion d'architecture logicielle
-* Principes de conception
+* Notion d'architecture logicielle.
+* Principes de conception.
 
-Les exemples de code sont écrits en C# et utilisent la technologie Winforms, mais les concepts exposés sont valables pour les autres environnements.
+Les exemples de code sont écrits en langage C# et utilisent la technologie Winforms, mais les concepts exposés sont valables quel que soit l'environnement de travail.
 
 ## Pré-requis
 
-L'étude des exemples de code de ce livre nécessite une bonne connaissance de la programmation orientée objet et du langage C#. Au besoin, consultez le livre [Programmation orientée objet en C#](https://bpesquet.gitbooks.io/programmation-orientee-objet-csharp/content/).
+L'étude des exemples de code de ce livre nécessite une connaissance minimale de la programmation orientée objet et du langage C#. Au besoin, consultez le livre [Programmation orientée objet en C#](https://bpesquet.gitbooks.io/programmation-orientee-objet-csharp/content/).
 
 ## Contributions
 
