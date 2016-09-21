@@ -21,7 +21,7 @@ Les exemples de code sont écrits en langage C# et utilisent la technologie WinF
 
 L'étude des exemples de code de ce livre nécessite une connaissance minimale de la programmation orientée objet, du langage C# et de la technologie WinForms. 
 
-> Au besoin, consultez les livres [Programmation orientée objet en C#](https://bpesquet.gitbooks.io/programmation-orientee-objet-csharp/content/) et [Programmation évènementielle avec les WinForms](https://bpesquet.gitbooks.io/programmation-evenementielle-winforms/content/).
+> Au besoin, consultez les livres [Programmation orientée objet en C#](https://www.gitbook.com/book/bpesquet/programmation-orientee-objet-csharp/) et [Programmation évènementielle avec les WinForms](https://www.gitbook.com/book/bpesquet/programmation-evenementielle-winforms/).
 
 ## Contributions
 
