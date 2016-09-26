@@ -1,6 +1,6 @@
 # La conception d'un logiciel
 
-L'objectif de ce chapitre est de décrire le processus de conception d'un logiciel.
+L'objectif de ce chapitre est de décrire l'activité de conception d'un logiciel.
 
 ## La phase de conception
 
@@ -60,7 +60,9 @@ On peut décrire l'architecture d'un logiciel selon différents points de vue. E
 
 ### Exemples d'architectures
 
-Au fil du temps, plusieurs styles d'architecture se sont dégagés. En voici quelques exemples.
+Au fil du temps, plusieurs styles d'architecture se sont dégagés. En voici quelques exemples. 
+
+> Vous trouverez une description plus détaillée des principaux styles architecturaux à [cette adresse](https://msdn.microsoft.com/en-us/library/ee658117.aspx#ServiceOrientedStyle).
 
 #### Architecture client/serveur
 
@@ -78,6 +80,6 @@ Une architecture en couches organise un logiciel sous forme de couches (*layers*
 
 Une architecture orientée services (SOA, *Service-Oriented Architecture*) décompose un logiciel sous la forme d'un ensemble de services métier utilisant un format d'échange commun, généralement XML ou JSON. 
 
-Une variante récente, l'architecture microservices, diminue la granularité des services pour leur assurer souplesse et capacité à évoluer, au prix d'une plus grande distribution du système.
+Une variante récente, l'architecture microservices, diminue la granularité des services pour leur assurer souplesse et capacité à évoluer, au prix d'une plus grande distribution du système. L'image ci-dessous ([source](http://blog.octo.com/larchitecture-microservices-sans-la-hype-quest-ce-que-cest-a-quoi-ca-sert-est-ce-quil-men-faut/)) illustre la défférence entre ces deux approches.
 
-[](../images/microservices.png)
+![](../images/microservices.png)
