@@ -1,2 +1,2 @@
-# Les modèles de conception
+# Modèles de conception
 
