@@ -2,33 +2,21 @@
 
 L'objectif de ce chapitre est de décrire l'activité de conception logicielle.
 
-## L'importance des composants logiciels
+## Définition
 
-Un bâtiment s'édifie à partir de morceaux de bases, par exemple des briques ou des moellons. De la même manière, une carte mère est conçue par assemblage de composants électroniques.
+Comme évoqué dans le chapitre précédent, la conception logicielle vise à définir de manière détaillée le fonctionnement de chaque sous-partie de l'application, une fois que sa structure globale a été définie (phase d'architecture).
 
-Longtemps, l'informatique a gardé un côté artisanal : chaque programmeur recréait la roue dans son coin pour les besoins de son projet. Mais nous aommes passés depuis plusieurs années à une ère industrielle. Des logiciels de plus en plus complexes doivent être réalisés dans des délais de plus en plus courts, tout en maintenant le meilleur niveau de qualité possible. Une réponse à ces exigences contradictoires passe par la réutilisation de briques logicielles de base appelées librairies, modules ou plus généralement **composants**. 
-
-En particulier, la mise à disposition de milliers de projets *open source* via des plates-formes comme [GitHub](https://github.com) ou des outils comme [NuGet](https://www.nuget.org/), [composer](https://getcomposer.org/) ou [npm](https://www.npmjs.com/) a permis aux équipes de développement de faire des gains de productivité remarquables. A l'heure actuelle, il n'est pas de logiciel de taille significative qui n'intègre plusieurs dizaines, voire des centaines de composants externes.
-
-![](../images/opensource-wide.png)
-
-Déjà testé et éprouvé, un composant logiciel fait simultanément baisser le temps et augmenter la qualité du développement. Il permet de limiter les efforts nécessaires pour traiter les problématiques *techniques* afin de se concentrer sur les problématiques *métier*.
-
-Voici parmi bien d'autres quelques exemples de problématiques techniques adressables par des composants logiciels :
-
-* Accès à une base de données (connexion, exécution de requêtes).
-* Calculs scientifiques.
-* Gestion de l'affichage (moteur 3D).
-* Journalisation des évènements dans des fichiers.
-* ...
+Il s'agit ici de faire les choix concrets et opérationnels qui permettront de débuter la production du logiciel (codage) de manière productive et sereine.
 
 ## Principes de conception
+
+Il existe plusieurs grands principes, potentiellement contradictoires, qui doivent guider la conception d'un logiciel.
 
 ### Responsabilité unique
 
 C'est sans doute le principe de conception logicielle le plus important. Une application bien conçue est décomposée en sous-parties. Selon la complexité de l'application, chaque sous-partie peut à son tour est décomposée en sous-parties, jusqu'à arriver à des sous-parties non décomposables. 
 
-L'essentiel est que **chaque sous-partie de l'application ait une et une seule responsabilité**. Cela signifie que chaque sous-partie (chaque composant) est dédiée à un seul rôle et ne va jamais au-delà. Ce rôle est en lien avec la problématique dont s'occupe la sous-partie.
+L'essentiel est qu'à chaque décomposition, **chaque sous-partie ait une et une seule responsabilité**. Cela signifie que chaque sous-partie est dédiée à un seul rôle et ne va jamais au-delà.
 
 Exemples :
 
@@ -37,6 +25,26 @@ Exemples :
 * Une classe d'accès à une base de données (connexion, exécution de requêtes) ne devrait faire ni traitements métier, ni affichage des informations.
 
 Le principe de responsabilité unique (*Single Responsibility Principle*) vise à construire une application de manière modulaire à partir d'éléments de base dont le rôle est bien identifié. Au moment où un nouveau besoin se fera sentir, il suffira d'intervenir sur la ou les sous-partie(s) concernée(s). Le reste de l'application sera inchangée : cela limite les tests à effectuer et le risque d'erreur.
+
+### Réutilisation
+
+Un bâtiment s'édifie à partir de morceaux de bases, par exemple des briques ou des moellons. De la même manière, une carte mère est conçue par assemblage de composants électroniques.
+
+Longtemps, l'informatique a gardé un côté artisanal : chaque programmeur recréait la roue dans son coin pour les besoins de son projet. Mais nous aommes passés depuis plusieurs années à une ère industrielle. Des logiciels de plus en plus complexes doivent être réalisés dans des délais de plus en plus courts, tout en maintenant le meilleur niveau de qualité possible. Une réponse à ces exigences contradictoires passe par la réutilisation de briques logicielles de base appelées librairies, modules ou plus généralement **composants**. 
+
+En particulier, la mise à disposition de milliers de projets *open source* via des plates-formes comme [GitHub](https://github.com) ou des outils comme [NuGet](https://www.nuget.org/), [Composer](https://getcomposer.org/) ou [npm](https://www.npmjs.com/) a permis aux équipes de développement de faire des gains de productivité remarquables en intégrant ces composants lors de la conception de leurs applications. A l'heure actuelle, il n'est pas de logiciel de taille significative qui n'intègre plusieurs dizaines, voire des centaines de composants externes.
+
+![](../images/opensource-wide.png)
+
+Déjà testé et éprouvé, un composant logiciel fait simultanément baisser le temps et augmenter la qualité du développement. Il permet de limiter les efforts nécessaires pour traiter les problématiques *techniques* afin de se concentrer sur les problématiques *métier*, celles qui sont en lien direct avec ses fonctionnalités essentielles.
+
+Voici parmi bien d'autres quelques exemples de problématiques techniques adressables par des composants logiciels :
+
+* Accès à une base de données (connexion, exécution de requêtes).
+* Calculs scientifiques.
+* Gestion de l'affichage (moteur 3D).
+* Journalisation des évènements dans des fichiers.
+* ...
 
 ### Encapsulation maximale
 
@@ -134,4 +142,18 @@ Ce troisième acronyme signifie **You Ain't Gonna Need It**. Corollaire du préc
 
 Le moment venu, il sera toujours temps de procéder à des changements (refactorisation ou *refactoring*) pour que l'application réponde aux nouvelles exigences.
 
-## Modèles de conception
+## Patrons de conception
+
+### Définition
+
+Un **patron de conception** (*design pattern*) est une solution standard à un problème de conception.
+
+L'ensemble des patrons de conception consistue un catalogue issu de l'expérience de la communauté des développeurs. On peut y puiser des réponses à des besoins récurrents : 
+
+### Exemples
+
+#### 
+
+#### Patron MVC
+
+#### Patron MVP

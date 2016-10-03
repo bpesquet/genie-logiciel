@@ -12,7 +12,7 @@ Par analogie, l'architecture logicielle peut être définie comme étant **"l'ar
 
 Selon le contexte, l'architecture logicielle peut désigner :
 
-* **L'activité d'architecture**, c'est-à-dire une phase au cours de laquelle on effectue les grands choix qui vont structurer une application : langages, outils et technologies utilisés, découpage en sous-parties, méthodologies mises en oeuvre...
+* **L'activité d'architecture**, c'est-à-dire une phase au cours de laquelle on effectue les grands choix qui vont structurer une application : langages et technologies utilisés, découpage en sous-parties, méthodologies mises en oeuvre...
 * **Le résultat de cette activité**, c'est-à-dire la structure d'une l'application, son squelette.
 
 ### Importance
@@ -35,18 +35,18 @@ Les deux objectifs principaux de toute architecture logicielle sont la réductio
 
 ### Distinction entre architecture et conception
 
-Il n'existe pas de réel consensus concernant le sens des mots "architecture" et "conception" dans le domaine du développement logiciel. Ces deux termes sont souvent employés de manière interchangeable. Il arrive aussi que l'architecture soit appelée "conception préliminaire" et la conception proprement dite "conception détaillée", ou encore que la phase de conception d'un projet englobe la définition de son architecture.
+Il n'existe pas de vrai consensus concernant le sens des mots "architecture" et "conception" dans le domaine du développement logiciel. Ces deux termes sont souvent employés de manière interchangeable. Il arrive aussi que l'architecture soit appelée "conception préliminaire" et la conception proprement dite "conception détaillée". Certaines méthodologies de développement incluent la définition de l'architecture dans une phase plus globale appelée "conception".
 
-Par souci de précision, il est cependant utile de faire la distinction suivante entre architecture et conception : 
+Par souci de précision, on peut cependant faire la distinction suivante entre architecture et conception : 
 
-* **L'architecture logicielle (*software architecture*)** considère le logiciel de manière globale. Il s'agit d'une vue de haut niveau qui définit le logiciel dans ses grandes lignes : que fait-il ? Quelles sont les sous-parties qui le composent ? Comment interagissent-elles ? Sous quelle forme sont stockées ses données ? etc.
+* **L'architecture logicielle (*software architecture*)** considère le logiciel de manière globale. Il s'agit d'une vue de haut niveau qui définit le logiciel dans ses grandes lignes : que fait-il ? Quelles sont les sous-parties qui le composent ? Interagissent-elles ? Sous quelle forme sont stockées ses données ? etc.
 
 * **La conception logicielle (*software design*)** intervient à un niveau de granularité plus fin et permet de préciser comment fonctionne chaque sous-partie de l'application. Quel logiciel est utilisé pour stocker les données ? Comment est organisé le code ? Comment une sous-partie expose-t-elle ses fonctionnalités au reste du système ? etc.
 
-La perspective change selon la taille du logiciel et le niveau auquel on s'intéresse à lui. 
+La perspective change selon la taille du logiciel et le niveau auquel on s'intéresse à lui :
 
 * Sur un projet de taille modeste, architecture et conception peuvent se confondre. 
-* A l'inverse, certaines sous-parties d'un projet de taille conséquente peuvent nécessiter une phase d'architecture qui, pour l'application globale, relève plutôt de la conception... 
+* A l'inverse, certaines sous-parties d'un projet de taille conséquente peuvent nécessiter en elles-mêmes un travail d'architecture qui, du point de vue de l'application globale, relève plutôt de la conception... 
 
 ## L'activité d'architecture
 
@@ -60,7 +60,7 @@ L'activité d'architecture peut donner lieu à la production de  **diagrammes** 
 
 ### Place dans le processus de création
 
-L'activité d'architecture intervient traditionnellement vers le début d'un projet logiciel, dès le moment où les besoins auxquels le logiciel doit répondre sont suffisamment identifiés.
+L'activité d'architecture intervient traditionnellement vers le début d'un projet logiciel, dès le moment où les besoins auxquels le logiciel doit répondre sont suffisamment identifiés. Elle est presque toujours suivie par une phase de conception.
 
 Les évolutions d'un projet logiciel peuvent nécessiter de nouvelles phases d'architecture tout au long de sa vie. C'est notamment le cas avec certaines méthodologies de développement itératif ou agile, où des phases d'architecture souvent brèves alternent avec des phases de production, de test et de livraison.
 
