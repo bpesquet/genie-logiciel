@@ -19,7 +19,7 @@ Le génie logiciel vise à rationaliser et à optimiser le processus de producti
 * Maximisation des performances et de la fiabilité.
 * Facilitation de la maintenance et des évolutions ultérieures.
 
-Comme tout projet, la réalisation d'un logiciel est soumise à des exigences contradictoires et difficilement conciliables ([coût-délai-qualité](http://www.geek-directeur-technique.com/2009/07/10/le-triangle-qualite-cout-delai)), souvent représentées sous forme d'un triangle.
+Comme tout projet, la réalisation d'un logiciel est soumise à des exigences contradictoires et difficilement conciliables (triangle [coût-délai-qualité](http://www.geek-directeur-technique.com/2009/07/10/le-triangle-qualite-cout-delai)).
 
 ![](../images/triangle-qualite-cout-delai.jpg)
 
@@ -32,20 +32,21 @@ La qualité d'un logiciel peut s'évaluer à partir d'un ensemble de facteurs te
 
 La qualité du code source d'un logiciel peut être évaluée par un certain nombre de mesures appelées **métriques de code** : indice de maintenabilité, complexité cyclomatique, etc.
 
-Sans être une [solution miracle](https://fr.wikipedia.org/wiki/Pas_de_balle_en_argent), le génie logiciel est un moyen de maximiser la surface du triangle en tenant compte des priorités du client.
+Sans être une [solution miracle](https://fr.wikipedia.org/wiki/Pas_de_balle_en_argent), le génie logiciel a pour objectif de maximiser la surface du triangle en tenant compte des priorités du client.
 
 ## Dimensions
 
-Le génie logiciel couvre l'ensemble du cycle de vie d'un logiciel. Il étudie toutes les activités qui mènent d'un besoin à la livraison du logiciel, y compris dans ses versions successives.
+Le génie logiciel couvre l'ensemble du cycle de vie d'un logiciel. Il étudie toutes les activités qui mènent d'un besoin à la livraison du logiciel, y compris dans ses versions successives, jusqu'à sa fin de vie.
 
 Les dimensions du génie logiciel sont donc multiples :
 
 * Analyse des besoins du client.
-* Conception, c'est-à-dire l'ensemble des choix qui vont structurer le logiciel.
+* Définition de l'architecture du logiciel.
+* Choix de conception.
 * Règles et méthodes de production du code source.
-* Tests du logiciel.
-* Intégration et validation.
 * Gestion des versions.
+* Test du logiciel.
+* Intégration et validation.
 * Maintenance et évolutions.
 * Organisation de l'équipe et interactions avec le client.
 * ...
