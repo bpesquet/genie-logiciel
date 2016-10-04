@@ -144,16 +144,6 @@ Le moment venu, il sera toujours temps de procéder à des changements (refactor
 
 ## Patrons de conception
 
-### Définition
-
 Un **patron de conception** (*design pattern*) est une solution standard à un problème de conception.
 
 L'ensemble des patrons de conception consistue un catalogue issu de l'expérience de la communauté des développeurs. On peut y puiser des réponses à des besoins récurrents : 
-
-### Exemples
-
-#### 
-
-#### Patron MVC
-
-#### Patron MVP
