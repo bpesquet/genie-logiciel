@@ -144,6 +144,16 @@ Le moment venu, il sera toujours temps de procéder à des changements (refactor
 
 ## Patrons de conception
 
-Un **patron de conception** (*design pattern*) est une solution standard à un problème de conception.
+Un **patron de conception** (*design pattern*) est une solution standard à un problème de conception. L'ensemble des patrons de conception constitue un catalogue de bonnes pratiques issu de l'expérience de la communauté. Leurs noms forment un vocabulaire commun qui permet d'identifier immédiatement la solution associée. 
 
-L'ensemble des patrons de conception consistue un catalogue issu de l'expérience de la communauté des développeurs. On peut y puiser des réponses à des besoins récurrents : 
+Les patrons de conception ont été popularisés par le livre *Design Patterns – Elements of Reusable Object-Oriented Software* sorti en 1995 et co-écrit par quatre auteurs (le *Gang Of Four*, ou GoF). Ce livre décrit 23 patrons, auxquels d'autres se sont rajoutés depuis.
+
+Chaque patron décrit un problème à résoudre puis les éléments de sa solution, ainsi que leurs relations. La formalisme graphique utilisé est souvent un diagramme de classes UML.
+
+L'exemple ci-dessous décrit le patron de conception **Proxy**, dont l'objectif est de substituer un objet à un autre afin de contrôler l'utilisation de ce dernier.
+
+![](../images/UML_DP_proxy.png)
+
+Il existe également un catalogue d'**anti-patterns**. Comme son nom l'indique, un anti-pattern est un exemple de mauvaise pratique à ne surtout pas suivre.
+
+> Certains patterns originaux du GoF sont parfois considérés comme des anti-patterns. C'est le cas du pattern **Singleton** ([explications](https://www.michaelsafyan.com/tech/design/patterns/singleton)).
