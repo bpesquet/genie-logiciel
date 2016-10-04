@@ -152,8 +152,8 @@ Chaque patron décrit un problème à résoudre puis les éléments de sa soluti
 
 L'exemple ci-dessous décrit le patron de conception **Proxy**, dont l'objectif est de substituer un objet à un autre afin de contrôler l'utilisation de ce dernier.
 
-![](../images/UML_DP_proxy.png)
+![](../images/UML_DP_Proxy.png)
 
 Il existe également un catalogue d'**anti-patterns**. Comme son nom l'indique, un anti-pattern est un exemple de mauvaise pratique à ne surtout pas suivre.
 
-> Certains patterns originaux du GoF sont parfois considérés comme des anti-patterns. C'est le cas du pattern **Singleton** ([explications](https://www.michaelsafyan.com/tech/design/patterns/singleton)).
+> Certains patterns originaux du GoF sont parfois considérés comme des anti-patterns. C'est par exemple le cas du pattern **Singleton** ([explications](https://www.michaelsafyan.com/tech/design/patterns/singleton)).
