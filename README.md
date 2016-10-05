@@ -10,10 +10,12 @@ Ce livre constitue une introduction au **génie logiciel**. Il présente les gra
 
 * Notion d'architecture logicielle.
 * Principes de conception.
-* Développement en couches.
-* *Design patterns*.
-* Travail collaboratif.
-* Tests, documentation et maintenance.
+* Patrons logiciels.
+* (TODO) Gestion des versions.
+* (TODO) Travail collaboratif.
+* (TODO) Tests.
+* (TODO) Intégration et validation.
+* (TODO) Documentation.
 
 Les exemples de code sont écrits en langage C# et utilisent la technologie WinForms, mais les concepts exposés sont valables quel que soit l'environnement de travail.
 

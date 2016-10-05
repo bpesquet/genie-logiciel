@@ -32,7 +32,7 @@ Une architecture en couches organise un logiciel sous forme de couches (*layers*
 
 ![](../images/layered-architecture.png)
 
-Cette architecture facilite la compréhension des échanges au sein de l'application.
+Cette architecture respecte le principe de séparation des responsabiltés et facilite la compréhension des échanges au sein de l'application.
 
 Lorsque chaque couche correspond à un processus distinct sur une machine, on parle d'architecture **n-tiers**, `n` désignant le nombre de couches.
 
@@ -76,7 +76,9 @@ Dans la variante dite *Passive View* de cette architecture, la Vue est passive e
 
 ## Patrons de conception
 
-Un **patron de conception** (*design pattern*) est une solution standard à un problème de conception. L'ensemble des patrons de conception constitue un catalogue de bonnes pratiques issu de l'expérience de la communauté. Leurs noms forment un vocabulaire commun qui permet d'identifier immédiatement la solution associée. 
+Un **patron de conception** (*[design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)*) est une solution standard à un problème de conception. L'ensemble des patrons de conception constitue un catalogue de bonnes pratiques issu de l'expérience de la communauté. Leurs noms forment un vocabulaire commun qui permet d'identifier immédiatement la solution associée. 
+
+> On rencontre également le terme de "motif de conception".
 
 Les patrons de conception ont été popularisés par le livre *Design Patterns – Elements of Reusable Object-Oriented Software* sorti en 1995 et co-écrit par quatre auteurs (le *Gang Of Four*, ou GoF). Ce livre décrit 23 patrons, auxquels d'autres se sont rajoutés depuis.
 
@@ -86,6 +88,6 @@ L'exemple ci-dessous décrit le patron de conception **Proxy**, dont l'objectif 
 
 ![](../images/UML_DP_Proxy.png)
 
-Il existe également un catalogue d'**anti-patterns**. Comme son nom l'indique, un anti-pattern est un exemple de mauvaise pratique à ne surtout pas suivre.
+Il existe également un catalogue d'**anti-patterns**. Comme son nom l'indique, un [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern) est un exemple de mauvaise pratique à ne surtout pas suivre.
 
-> Certains patterns originaux du GoF sont parfois considérés comme des anti-patterns. C'est par exemple le cas du pattern **Singleton** ([explications](https://www.michaelsafyan.com/tech/design/patterns/singleton)).
+> Certains patterns originaux du GoF sont maintenant plutôt considérés comme des anti-patterns. C'est par exemple le cas du pattern **Singleton** ([explications](https://www.michaelsafyan.com/tech/design/patterns/singleton)).

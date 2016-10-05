@@ -1,10 +1,8 @@
 # Architecture logicielle
 
-L'objectif de ce chapitre est de présenter ce qu'est (et n'est pas) l'architecture logicielle.
+L'objectif de ce chapitre est de présenter ce qu'est l'architecture logicielle.
 
-## Introduction
-
-### Définition
+## Définition
 
 Le Petit Robert définit l'architecture comme étant **"l'art de construire les édifices"**. Ce mot est avant tout lié au domaine du génie civil : on pense à l'architecture d'un monument ou encore  d'un pont. 
 
@@ -15,7 +13,7 @@ Selon le contexte, l'architecture logicielle peut désigner :
 * **L'activité d'architecture**, c'est-à-dire une phase au cours de laquelle on effectue les grands choix qui vont structurer une application : langages et technologies utilisés, découpage en sous-parties, méthodologies mises en oeuvre...
 * **Le résultat de cette activité**, c'est-à-dire la structure d'une l'application, son squelette.
 
-### Importance
+## Importance
 
 Dans le domaine du génie civil, on n'imagine pas se lancer dans la construction d'un bâtiment sans avoir prévu son apparence, étudié ses fondations et son équilibre, choisi les matériaux utilisés, etc. Dans le cas contraire, on va au-devant de graves désillusions...
 
@@ -25,7 +23,7 @@ Cette problématique se retrouve dans le domaine informatique. Comme un bâtimen
 
 > Exemple : le logiciel [VLC](http://www.videolan.org/vlc/) n'était à l'origine qu'un projet étudiant destiné à diffuser des vidéos sur le campus de l'Ecole Centrale de Paris. Sa première version remonte à l'année 2001.
 
-### Objectifs
+## Objectifs
 
 Dans le domaine du génie civil, les objectifs de l'architecture sont que le bâtiment construit réponde aux besoins qu'il remplit, soit robuste dans le temps et (notion plus subjective) agréable à l'oeil. 
 
@@ -33,11 +31,13 @@ L'architecture logicielle poursuit les mêmes objectifs. Le logiciel créé doit
 
 Les deux objectifs principaux de toute architecture logicielle sont la réduction des coûts (création et maintenance) et l'augmentation de la **qualité** du logiciel.
 
-### Architecture ou conception ?
+La qualité du code source d'un logiciel peut être évaluée par un certain nombre de mesures appelées **métriques de code** : indice de maintenabilité, complexité cyclomatique, etc.
+
+## Architecture ou conception ?
 
 Il n'existe pas de vrai consensus concernant le sens des mots "architecture" et "conception" dans le domaine du développement logiciel. Ces deux termes sont souvent employés de manière interchangeable. Il arrive aussi que l'architecture soit appelée "conception préliminaire" et la conception proprement dite "conception détaillée". Certaines méthodologies de développement incluent la définition de l'architecture dans une phase plus globale appelée "conception".
 
-Cela dit, la distinction suivante est généralement admise : 
+Cela dit, la distinction suivante est généralement admise et sera utilisée dans la suite de ce livre :
 
 * **L'architecture logicielle (*software architecture*)** considère le logiciel de manière globale. Il s'agit d'une vue de haut niveau qui définit le logiciel dans ses grandes lignes : que fait-il ? Quelles sont les sous-parties qui le composent ? Interagissent-elles ? Sous quelle forme sont stockées ses données ? etc.
 
@@ -83,6 +83,3 @@ La phase d'architecture d'une application consiste aussi à choisir comment sont
 Résultat de l'activité du même nom, l'architecture d'un logiciel décrit sa structure globale, son squelette. Elle décrit les principaux éléments qui composent le logiciel, ainsi que les flux d'échanges entre ces éléments. Elle permet à l'équipe de développement d'avoir une vue d'ensemble de l'organisation du logiciel, et constitue donc en elle-même une forme de documentation.
 
 On peut décrire l'architecture d'un logiciel selon différents points de vue. Entre autres, une vue **logique** mettre l'accent sur le rôle et les responsabilités de chaque partie du logiciel. Une vue **physique** présentera les processus, les machines et les liens réseau nécessaires.
-
-## Patrons d'architecture
-

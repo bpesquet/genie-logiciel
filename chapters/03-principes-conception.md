@@ -4,19 +4,22 @@ Ce chapitre présente les grands principes qui doivent guider la création d'un 
 
 > Certains étant potentiellement contradictoires entre eux, il faudra nécessairement procéder à des compromis ou des arbitrages en fonction du contexte du projet.
 
-## Responsabilité unique
+## Séparation des responsabilités
 
-C'est sans doute le principe de conception logicielle le plus important. Une application bien conçue est décomposée en sous-parties. Selon la complexité de l'application, chaque sous-partie peut à son tour est décomposée en sous-parties, jusqu'à arriver à des sous-parties non décomposables. 
+Le **principe de séparation des responsabilités** (*[separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)*) vise à organiser un logiciel en plusieurs sous-parties, chacune ayant une responsabilité bien définie. 
 
-L'essentiel est qu'à chaque décomposition, **chaque sous-partie ait une et une seule responsabilité**. Cela signifie que chaque sous-partie est dédiée à un seul rôle et ne va jamais au-delà.
+> C'est sans doute le principe de conception le plus essentiel.
 
-Exemples :
+Ainsi construite de manière modulaire, l'application sera plus facile à comprendre et à faire évoluer. Au moment où un nouveau besoin se fera sentir, il suffira d'intervenir sur la ou les sous-partie(s) concernée(s). Le reste de l'application sera inchangée : cela limite les tests à effectuer et le risque d'erreur. Une construction modulaire encourage également la réutilisation de certaines parties de l'application.
+
+Le **principe de responsabilité unique** (*[single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)*) stipule quant à lui que chaque sous-partie atomique d'uun logiciel (exemple : une classe) doit avoir une unique responsabilité (une raison de changer) ou bien être elle-même décomposée en sous-parties. "A class should have only one reason to change" (Robert C. Martin).
+
+Exemples d'applications de ces deux principes :
 
 * Une sous-partie qui s'occupe des affichages à l'écran participe ne devrait pas comporter de traitements métier, ni de code en rapport avec l'accès aux données.
 * Un composant de traitements métier (calcul scientifique ou financier, etc) ne doit pas s'intéresser ni à l'affichage des données qu'il manipule, ni à leur stockage.
 * Une classe d'accès à une base de données (connexion, exécution de requêtes) ne devrait faire ni traitements métier, ni affichage des informations.
-
-Le principe de responsabilité unique (*Single Responsibility Principle*) vise à construire une application de manière modulaire à partir d'éléments de base dont le rôle est bien identifié. Au moment où un nouveau besoin se fera sentir, il suffira d'intervenir sur la ou les sous-partie(s) concernée(s). Le reste de l'application sera inchangée : cela limite les tests à effectuer et le risque d'erreur.
+* Une classe qui aurait deux raisons de changer devrait être scindée en deux classes distinctes.
 
 ## Réutilisation
 
