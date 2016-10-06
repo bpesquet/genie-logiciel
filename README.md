@@ -4,6 +4,8 @@ Ce livre est un support de cours à l'[Ecole Nationale Supérieure de Cognitique
 
 ![](images/ensc-logo.png)
 
+Le code source du projet associé est [disponible en ligne](https://github.com/bpesquet/winforms-architecture-patterns).
+
 ## Résumé
 
 Ce livre constitue une introduction au **génie logiciel**. Il présente les grands enjeux et les bonnes pratiques liés à l'activité de réalisation de logiciels :
