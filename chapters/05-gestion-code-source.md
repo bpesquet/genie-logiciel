@@ -64,9 +64,9 @@ Microsoft fournit un logiciel de SCM développé sur mesure pour son environneme
 
 ## Présentation de Git
 
-![](../images/git-logo.png)
-
 [Git](https://git-scm.com/)  est un [logiciel libre](https://fr.wikipedia.org/wiki/Logiciel_libre) de [gestion des versions](https://fr.wikipedia.org/wiki/Gestion_de_versions). C'est un outil qui permet d'archiver et de maintenir les différentes versions d'un ensemble de fichiers textuels constituant souvent le code source d'un projet logiciel. Créé à l'origine pour gérer le code du noyau Linux, il est multi-langages et multi-plateformes. Git est devenu à l'heure actuelle un quasi-standard.
+
+![](../images/git-logo.png)
 
 > Le nom "Git" se prononce comme dans "guitare" et non pas comme dans "jitsu".
 
@@ -95,5 +95,7 @@ Bien qu'il existe de nombreux plugins et autres interfaces graphiques, Git est �
 * `git add`: ajoute des fichiers depuis le répertoire de travail vers l'index.
 * `git commit`: ajoute des fichiers depuis l'index vers HEAD.
 * `git clone`: clone un dépôt existant local ou distant.
+* `git pull`: récupère des modifications depuis un dépôt distant vers HEAD.
+* `git push`: publie des modifications depuis HEAD vers un dépôt distant.
 
 Pour plus de détails sur les autres opérations possibles, consultez [ce mémento](http://slam5.lmdsio.fr/lessons/memento-git).
