@@ -5,4 +5,5 @@
 * [Architecture logicielle](chapters/02-architecture-logiciel.md)
 * [Principes de conception](chapters/03-principes-conception.md)
 * [Patrons logiciels](chapters/04-patrons-logiciels.md)
+* [Gestion du code source](chapters/05-gestion-code-source.md)
 
