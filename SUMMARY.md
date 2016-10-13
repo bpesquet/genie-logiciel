@@ -7,4 +7,7 @@
 * [Patrons logiciels](chapters/04-patrons-logiciels.md)
 * [Gestion du code source](chapters/05-gestion-code-source.md)
 * [Travail collaboratif](chapters/06-travail-collaboratif.md)
+* [Tests](chapters/07-tests.md)
+* [Intégration et validation](chapters/08-integration-validation.md)
+* [Documentation](chapters/09-documentation.md)
 

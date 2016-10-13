@@ -4,8 +4,6 @@ Ce livre est un support de cours à l'[Ecole Nationale Supérieure de Cognitique
 
 ![](images/ensc-logo.png)
 
-Le code source du projet associé est [disponible en ligne](https://github.com/bpesquet/winforms-architecture-patterns).
-
 ## Résumé
 
 Ce livre constitue une introduction au **génie logiciel**. Il présente les grands enjeux et les bonnes pratiques liés à l'activité de réalisation de logiciels :
@@ -19,13 +17,13 @@ Ce livre constitue une introduction au **génie logiciel**. Il présente les gra
 * (TODO) Intégration et validation.
 * (TODO) Documentation.
 
-Les exemples de code sont écrits en langage C# et utilisent la technologie WinForms, mais les concepts exposés sont valables quel que soit l'environnement de travail.
+> Ce livre aborde les choses d'un point de vue essentiellement technique. Les aspects organisationnels (gestion de projet) et méthodologiques ne sont pas étudiés ici.
 
-## Pré-requis
+## Compléments
 
-L'étude des exemples de code de ce livre nécessite une connaissance minimale de la programmation orientée objet, du langage C# et de la technologie WinForms. 
+Un projet écrit en langage C# et utilisant la technologie WinForms illustre certaines notions d'architecture et de test présentées dans ce livre. Son code source est [disponible en ligne](https://github.com/bpesquet/winforms-architecture-patterns).
 
-> Au besoin, consultez les livres [Programmation orientée objet en C#](https://www.gitbook.com/book/bpesquet/programmation-orientee-objet-csharp/) et [Programmation évènementielle avec les WinForms](https://www.gitbook.com/book/bpesquet/programmation-evenementielle-winforms/).
+> Au besoin, consultez les livres [Programmation orientée objet en C#](https://www.gitbook.com/book/bpesquet/programmation-orientee-objet-csharp/) et [Programmation évènementielle avec les WinForms](https://www.gitbook.com/book/bpesquet/programmation-evenementielle-winforms/) pour pouvoir étudier ce projet.
 
 ## Contributions
 
