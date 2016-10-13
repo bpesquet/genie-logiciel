@@ -99,3 +99,11 @@ Bien qu'il existe de nombreux plugins et autres interfaces graphiques, Git est �
 * `git push`: publie des modifications depuis HEAD vers un dépôt distant.
 
 Pour plus de détails sur les autres opérations possibles, consultez [ce mémento](http://slam5.lmdsio.fr/lessons/memento-git).
+
+### Notion de branche
+
+Une branche permet de travailler de manière isolée sur une problèmatique particulière. Leur gestion par Git est particulièrement simple et efficace.
+
+Tout dépôt Git possède une branche par défaut nommée `master`. On peut ensuite créer de nouvelles branches (`git branch`), y effectuer des modifications, puis fusionner cette branche avec la branche par défaut (`git merge`).
+
+![](../images/git-branches.png)
