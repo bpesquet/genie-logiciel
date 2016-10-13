@@ -64,7 +64,7 @@ Microsoft fournit un logiciel de SCM développé sur mesure pour son environneme
 
 ## Présentation de Git
 
-![](../assets/images/git-logo.png)
+![](../images/git-logo.png)
 
 [Git](https://git-scm.com/)  est un [logiciel libre](https://fr.wikipedia.org/wiki/Logiciel_libre) de [gestion des versions](https://fr.wikipedia.org/wiki/Gestion_de_versions). C'est un outil qui permet d'archiver et de maintenir les différentes versions d'un ensemble de fichiers textuels constituant souvent le code source d'un projet logiciel. Créé à l'origine pour gérer le code du noyau Linux, il est multi-langages et multi-plateformes. Git est devenu à l'heure actuelle un quasi-standard.
 
