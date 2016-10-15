@@ -11,7 +11,7 @@ Ce livre constitue une introduction au **génie logiciel**. Il présente les gra
 * Notion d'architecture logicielle.
 * Principes de conception.
 * Patrons logiciels.
-* Production du code source.
+* (TODO) Production du code source.
 * Gestion des versions.
 * Travail collaboratif.
 * (TODO) Tests.
