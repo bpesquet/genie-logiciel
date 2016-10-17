@@ -69,6 +69,6 @@ Les paramètres de formatage les plus courants sont :
 
 Sous Visual Studio, la commande de formatage automatique du code est **Edition**->**Avancé**->**Mettre le document en forme**. 
 
-Voici quelques exemples de paramétrages possibles (menu **Outils**->**Options**).
+Voici quelques exemples de paramétrages possibles du formatage (menu **Outils**->**Options**).
 
 ![](../images/vs2010-code-format.png)
