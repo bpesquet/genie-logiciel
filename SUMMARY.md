@@ -9,6 +9,5 @@
 * [Gestion des versions](chapters/06-gestion-versions.md)
 * [Travail collaboratif](chapters/07-travail-collaboratif.md)
 * [Tests](chapters/08-tests.md)
-* [Intégration et validation](chapters/09-integration-validation.md)
-* [Documentation](chapters/10-documentation.md)
+* [Documentation](chapters/09-documentation.md)
 

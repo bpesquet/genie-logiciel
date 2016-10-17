@@ -72,3 +72,34 @@ Sous Visual Studio, la commande de formatage automatique du code est **Edition**
 Voici quelques exemples de paramétrages possibles du formatage (menu **Outils**->**Options**).
 
 ![](../images/vs2010-code-format.png)
+
+## Commentaires
+
+L'ajout de commentaires permetde faciliter la lecture et la compréhension d'une portion de code source. L'ensemble des commentaires constitue une forme efficace de documentation d'un projet logiciel.
+
+Il n'y a pas de règle absolue, ni de consensus, en matière de taux de commentaires dans le code source. Certaines méthodologies de développement agile (*eXtreme Programming*) vont jusqu'à affirmer qu'un code bien écrit se suffit à lui-même et ne nécessite aucun ajout de commentaires.
+
+Dans un premier temps, il vaut mieux se montrer raisonnable et commenter les portions de code  complexes ou essentielles : en-têtes de classes, algorithmes importants, portions atypiques, etc. Il faut éviter de paraphraser le code source en le commentant, ce qui alourdit sa lecture et n'est d'aucun intérêt. 
+
+Voici quelques exemples de commentaires inutiles : autant lire directement les instructions décrites.
+
+```csharp
+// Initialisation de i à 0
+int i = 0;
+
+// Instanciation d'un objet de la classe Random
+Random rng = new Random();
+
+// Appel de la méthode Next sur l'objet rng
+int nombreAlea = rng.Next(1, 4);
+```
+
+Voici comment le code précédent pourrait être mieux commenté.
+
+```
+int i = 0;
+Random rng = new Random();
+
+// Génération aléatoire d'un entier entre 1 et 3
+int nombreAlea = rng.Next(1, 4);
+```

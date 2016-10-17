@@ -15,10 +15,9 @@ Ce livre constitue une introduction au **génie logiciel**. Il présente les gra
 * Gestion des versions.
 * Travail collaboratif.
 * (TODO) Tests.
-* (TODO) Intégration et validation.
 * (TODO) Documentation.
 
-> Ce livre aborde les choses d'un point de vue essentiellement technique. Les aspects organisationnels (gestion de projet) et méthodologiques ne sont pas étudiés ici.
+> Le point de vue adopté par ce livre est essentiellement technique. Les aspects organisationnels (gestion de projet) et méthodologiques ne sont pas étudiés ici.
 
 ## Compléments
 
