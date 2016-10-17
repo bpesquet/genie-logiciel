@@ -191,11 +191,10 @@ Qu'elle soit technique ou d'utilisation, toute documentation doit absolument êt
 Structurer un document bureautique signifie :
 
 * Le décomposer en paragraphes suivant une organisation hiérarchique.
-* utiliser des styles de titre, une table des matières, des références...
+* Utiliser des styles de titre, une table des matières, des références...
 
 ### Niveau de langage
 
 Comme dit plus haut, le public visé n'a pas forcément d'expérience informatique : il faut bannir les explications trop techniques et penser à définir les principaux termes et le "jargon" utilisé. 
 
 Une documentation doit être rédigée dans une langue simple, pour être compris de tous, y compris de personnes étrangères apprenant la langue.
-
