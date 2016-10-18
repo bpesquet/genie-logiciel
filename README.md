@@ -14,7 +14,7 @@ Ce livre constitue une introduction au **génie logiciel**. Il présente les gra
 * Production du code source.
 * Gestion des versions.
 * Travail collaboratif.
-* (TODO) Tests.
+* Tests.
 * Documentation.
 
 > Le point de vue adopté par ce livre est essentiellement technique. Les aspects organisationnels (gestion de projet) et méthodologiques ne sont pas étudiés ici.
