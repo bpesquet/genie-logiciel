@@ -1,0 +1,17 @@
+/* Justify texts  */
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+  text-align: justify;
+}
+
+/* Center images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
