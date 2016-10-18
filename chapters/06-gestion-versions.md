@@ -106,3 +106,32 @@ Une branche permet de travailler de manière isolée sur une problèmatique part
 Tout dépôt Git possède une branche par défaut nommée `master`. On peut ensuite créer de nouvelles branches (`git branch`), y effectuer des modifications, puis fusionner cette branche avec la branche par défaut (`git merge`).
 
 ![](../images/git-branches.png)
+
+### Le fichier `.gitignore`
+
+Lorsqu'il est présent à la racine d'un répertoire géré par Git, le fichier `.gitignore` permet d'ignorer certains fichiers qui n'ont pas à être versionnés. C'est typiquement le cas des fichiers créés lors de la génération du logiciel ou des composants externes téléchargés par un gestionnaire de dépendances.
+
+La plate-forme GitHub maintient en ligne une [liste de fichiers .gitignore](https://github.com/github/gitignore) pour de nombreux types de projets. Voici un extrait du fichier `.gitignore` pour l'environnement Visual Studio.
+
+```
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+```
