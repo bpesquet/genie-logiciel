@@ -44,8 +44,7 @@ Les dimensions du génie logiciel sont donc multiples :
 * Règles et méthodes de production du code source.
 * Gestion des versions.
 * Test du logiciel.
-* Intégration et validation.
-* Maintenance et évolutions.
+* Documentation.
 * Organisation de l'équipe et interactions avec le client.
 * ...
 
