@@ -12,6 +12,8 @@ En complément de ces tests manuels, on a tout intérêt à intégrer à un proj
 
 ## Comment tester ?
 
+On peut classer les tests logiciels en différentes catégories.
+
 ### Tests de validation
 
 Ces tests sont réalisés lors de la [recette](https://fr.wikipedia.org/wiki/Test_d%27acceptation) (validation) par un client d'un projet livré par l'un de ses fournisseurs. Souvent écrits par le client lui-même, ils portent sur l'ensemble du logiciel et permet de vérifier son comportement global en situation.

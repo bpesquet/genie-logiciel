@@ -45,6 +45,8 @@ D'autres plates-formes alternatives se basent sur un modèle différent :
 
 Sur GitHub, un dépôt est associé à un utilisateur individuel ou à une organisation. Il est ensuite accessible via une URL de la forme `https://github.com/.../nomDuDepot.git`.
 
+![](../images/github-repo.png)
+
 L'organisation du travail en équipe autour de GitHub peut se faire suivant deux modèles distincts.
 
 #### Modèle "dépôt partagé"
