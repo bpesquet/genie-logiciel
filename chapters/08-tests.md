@@ -22,7 +22,7 @@ De part leur spectre large et leur complexité, les tests de validation sont le 
 
 ### Tests d'intégration
 
-Dans un projet informatique, l'intégration est de fait d'assembler plusieurs composants (ou modules) élémentaires en un composants de plus haut niveau. Un [test d'intégration](http://www.test-recette.fr/tests-techniques/bases/tests-integration.html) valide les résultats des interactions entre plusieurs composants permet de vérifier que leur assemblage s'est produit sans défaut. Il peut être manuel ou automatisé.
+Dans un projet informatique, l'intégration est de fait d'assembler plusieurs composants (ou modules) élémentaires en un composants de plus haut niveau. Un [test d'intégration](http://www.test-recette.fr/tests-techniques/bases/tests-integration.html) valide les résultats des interactions entre plusieurs composants et permet de vérifier que leur assemblage s'est produit sans défaut. Il peut être manuel ou automatisé.
 
 Un nombre croissant de projets logiciels mettent en place un processus d'**intégration continue**. Cela consiste à vérifier que chaque modification ne produit pas de régression dans l'application développée. L'intégration continue est nécessairement liée à une batterie de tests qui se déclenchent automatiquement lorsque des modifications sont intégrées au code du projet.
 

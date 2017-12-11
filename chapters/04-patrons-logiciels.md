@@ -72,7 +72,7 @@ Dans une architecture MVP, la partie **Vue** reçoit les évènements provenant 
 
 ![](../images/mvp-pattern.png)
 
-Dans la variante dite *Passive View* de cette architecture, la Vue est passive et dépend totalement du contrôleur pour ses mises à jour. Dans la variante dite *Supervising Controller*, Vuet et Modèle sont couplées et les modifications du Modèle déclenchent la mise à jour de la Vue.
+Dans la variante dite *Passive View* de cette architecture, la Vue est passive et dépend totalement du contrôleur pour ses mises à jour. Dans la variante dite *Supervising Controller*, Vue et Modèle sont couplées et les modifications du Modèle déclenchent la mise à jour de la Vue.
 
 ## Patrons de conception
 
