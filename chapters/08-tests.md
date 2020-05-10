@@ -28,7 +28,7 @@ Un nombre croissant de projets logiciels mettent en place un processus d'**inté
 
 ### Tests unitaires
 
-Contrairement aux tests de validation et d'intégration qui testent des pans entiers d'un logiciel, un test unitaire na valide qu'une portion atomique du code source (exemple : une seule classe) et est systématiquement automatisé.
+Contrairement aux tests de validation et d'intégration qui testent des pans entiers d'un logiciel, un test unitaire ne valide qu'une portion atomique du code source (exemple : une seule classe) et est systématiquement automatisé.
 
 Le test unitaire offre les avantages suivants :
 
