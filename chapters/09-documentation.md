@@ -176,7 +176,7 @@ La création d'une FAQ permet d'éviter que les mêmes questions soient réguli�
 
 L'aide en ligne est une forme de documentation d'utilisation accessible depuis un ordinateur. Il peut s'agir d'une partie de la documentation publiée sur Internet sous un format hypertexte.  
 
-Quand une section de l'aide en ligne est accessible facilement depuis la fonctionnalité d'un logiciel qu'elle concerne, elle est appelée aide contextuelle ou aide en ligne contextuelle. Les principaix formats d'aide en ligne sont le HTML et le PDF. Microsoft a publié plusieurs formats pour l'aide en ligne des logiciels tourant sous Windows : HLP, CHM ou encore MAML.
+Quand une section de l'aide en ligne est accessible facilement depuis la fonctionnalité d'un logiciel qu'elle concerne, elle est appelée aide contextuelle ou aide en ligne contextuelle. Les principaux formats d'aide en ligne sont le HTML et le PDF. Microsoft a publié plusieurs formats pour l'aide en ligne des logiciels tournant sous Windows : HLP, CHM ou encore MAML.
 
 Un moyen simple et efficace de fournir une aide en ligne consiste à définir des infobulles (*tooltips*). Elles permettent de décrire succinctement une fonctionnalité par survol du curseur.
 
